@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplicationAPI", "LoanApplicationAPI.csproj", "{141BD812-05D1-4647-BB6C-8769EF8ADD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplicationAPI", "LoanApplicationApi\LoanApplicationAPI.csproj", "{141BD812-05D1-4647-BB6C-8769EF8ADD0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplication.DomainTests", "..\Tests\LoanApplication.DomainTests.csproj", "{86C92ECC-8658-4180-8B9F-92C704395BC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplication.DomainTests", "LoanApplication.DomainTests\LoanApplication.DomainTests.csproj", "{86C92ECC-8658-4180-8B9F-92C704395BC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
