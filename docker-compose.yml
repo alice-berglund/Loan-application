@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  database:
+    image: mcr.microsoft.com/mssql/server:2017-latest 
+    container_name: Database
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=SecretPassword!
+    ports:
+      - "1402:1433"
+    volumes:
+      - database:/var/opt/mssql
+    networks:
+      - loanApplication
+
+volumes:
+  database:
+    name: LoanApplication.Database
+
+networks:
+  avida:
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.10.12.1/22
+    

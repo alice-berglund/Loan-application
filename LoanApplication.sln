@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplicationAPI", "LoanApplicationAPI.csproj", "{141BD812-05D1-4647-BB6C-8769EF8ADD0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanApplication.DomainTests", "..\Tests\LoanApplication.DomainTests.csproj", "{86C92ECC-8658-4180-8B9F-92C704395BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141BD812-05D1-4647-BB6C-8769EF8ADD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141BD812-05D1-4647-BB6C-8769EF8ADD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141BD812-05D1-4647-BB6C-8769EF8ADD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141BD812-05D1-4647-BB6C-8769EF8ADD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C92ECC-8658-4180-8B9F-92C704395BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C92ECC-8658-4180-8B9F-92C704395BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C92ECC-8658-4180-8B9F-92C704395BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C92ECC-8658-4180-8B9F-92C704395BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FAE8D5B-991A-4EDB-A47F-77B20E613634}
+	EndGlobalSection
+EndGlobal
