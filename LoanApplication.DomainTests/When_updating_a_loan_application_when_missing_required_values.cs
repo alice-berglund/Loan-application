@@ -30,7 +30,7 @@
         [Fact]
         public void When_adress_is_missing_null_exception_is_thrown()
         {
-            Assert.Throws<ArgumentNullException>(() => _loanApplication.UpdateLoanApplication("Pepe", "Silva", null, "14628", "Silent Third Harbor", 100000, 18, 33000, 0));
+            Assert.Throws<ArgumentNullException>("adress", () => _loanApplication.UpdateLoanApplication("Pepe", "Silva", null, "14628", "Silent Third Harbor", 100000, 18, 33000, 0));
         }
 
         [Fact]

@@ -29,8 +29,8 @@ namespace LoanApplicationAPI.Domain
 
         public LoanApplication(
             string firstName,
-            string lastname, 
-            string adress, 
+            string lastname,
+            string adress,
             string zip,
             string street,
             decimal loanAmount,
@@ -66,7 +66,7 @@ namespace LoanApplicationAPI.Domain
         {
             _state.FirstName = firstName ?? throw new ArgumentNullException(nameof(firstName));
             _state.LastName = lastname ?? throw new ArgumentNullException(nameof(lastname));
-            _state.Adress = adress ?? throw new ArgumentNullException(nameof(zip));
+            _state.Adress = adress ?? throw new ArgumentNullException(nameof(adress));
             _state.Zip = zip ?? throw new ArgumentNullException(nameof(zip));
             _state.Street = street ?? throw new ArgumentNullException(nameof(street));
             _state.LoanAmount = loanAmount;
