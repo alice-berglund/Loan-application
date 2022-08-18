@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LoanApplicationAPI.Controllers
 {
     [ApiController]
-    [Route("Loan Application")]
+    [Route("loan-applications")]
     public class LoanApplicationController : ControllerBase
     {
         private readonly ICreateLoanApplicationHandler _createLoanApplicationHandler;
