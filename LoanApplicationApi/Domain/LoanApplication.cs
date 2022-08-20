@@ -29,8 +29,8 @@ namespace LoanApplicationAPI.Domain
 
         public LoanApplication(
             string firstName,
-            string lastname, 
-            string adress, 
+            string lastname,
+            string adress,
             string zip,
             string street,
             decimal loanAmount,
